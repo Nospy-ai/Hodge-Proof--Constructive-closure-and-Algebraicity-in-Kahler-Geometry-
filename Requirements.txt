@@ -1,0 +1,27 @@
+# ============================================================
+# HodgeClean / HodgeProof Framework – Python Dependencies
+# Compatible with SageMath 10.7 and Python 3.12+
+# ============================================================
+
+# Core numerical + array libraries
+numpy>=1.26.0
+scipy>=1.13.0
+pandas>=2.2.0
+
+# Symbolic mathematics (used in closure formula demos)
+sympy>=1.12
+
+# Plotting and visualization
+matplotlib>=3.8.0
+
+# Jupyter notebook support
+notebook>=7.1.0
+
+# JSON + schema utilities for artifact index verification
+jsonschema>=4.21.0
+
+# Path and file utilities (usually built-in, added for completeness)
+pathlib
+
+# Optional: High-precision real/complex arithmetic for root analysis
+mpmath>=1.3.0
