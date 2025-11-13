@@ -59,6 +59,15 @@ The HodgeClean operator numerically approximates closure on selected trial space
 This work is released under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You may share and adapt the material for any purpose, provided appropriate credit is given:
 “HodgeClean Project by David Manning (Galesburg, IL) —
 
+## How to set up the environment
+
+Using conda:
+
+```bash
+conda env create -f environment.yml
+conda activate hodgeclean
+jupyter notebook
+
 
 💬 Contact
 For correspondence, replication reports, or collaboration inquiries: David Manning — Independent Researcher (spycowmoo@gmail.com) or (David.Manning@bnsf.com)
